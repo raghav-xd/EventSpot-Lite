@@ -1,6 +1,6 @@
 import React from "react";
 import "./EventList.css";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 
 function EventList({ events, onEventClick }) {
