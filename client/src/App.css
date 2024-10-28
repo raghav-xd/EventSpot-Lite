@@ -95,6 +95,7 @@
 #search-container input {
   width: 40%;
   height: 30%;
+  padding-left: 20px;
   background-color: whitesmoke;
   font-size: 1rem;
   font-weight: bold;
