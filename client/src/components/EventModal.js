@@ -11,10 +11,11 @@ function EventModal({ event, onClose }) {
             &times;
           </button>
           <h2>{event.name}</h2>
+            <img src={event.image2} alt={event.name} id="event-img"/>
           <p><strong>Date:</strong> {event.date}</p>
           <p><strong>Location:</strong> {event.location}</p>
           <p>{event.description}</p>
-          <img src={event.image2} alt={event.name} id="event-img"/>
+          
         </div>
       </div>
     </CSSTransition>
