@@ -1,3 +1,4 @@
+
 const events = [
     {
         id: 1,
@@ -12,7 +13,7 @@ const events = [
         id: 2,
         name: "Art Exhibition",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "City Art Gallery",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/20967/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/989917/pexels-photo-989917.jpeg?auto=compress&cs=tinysrgb&w=600"
@@ -30,7 +31,7 @@ const events = [
         id: 3,
         name: "Film Festival",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "Cinepolis Cinema",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -39,7 +40,7 @@ const events = [
         id: 4,
         name: "Science Fair",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "Delhi Science Congress ",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/3771074/pexels-photo-3771074.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/2163/sea-flight-sky-earth.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -48,7 +49,7 @@ const events = [
         id: 5,
         name: "Yoga Day",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "City Park",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/1051838/pexels-photo-1051838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/1472887/pexels-photo-1472887.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -57,7 +58,7 @@ const events = [
         id: 6,
         name: "Photography Workshop",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "Procolro Photography",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/4270230/pexels-photo-4270230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/2058626/pexels-photo-2058626.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -75,7 +76,7 @@ const events = [
         id: 8,
         name: "Garden Festival",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "Botanical Gardens, Chandigarh",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/3232201/pexels-photo-3232201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/158028/bellingrath-gardens-alabama-landscape-scenic-158028.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
@@ -84,7 +85,7 @@ const events = [
         id: 9,
         name: "Movie Night",
         date: "2024-11-20",
-        location: "Art Museum",
+        location: "PVR: Elante, Chandigarh",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/9143903/pexels-photo-9143903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/8789703/pexels-photo-8789703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
