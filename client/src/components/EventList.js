@@ -1,3 +1,4 @@
+
 import React from "react";
 import "./EventList.css";
 
@@ -9,12 +10,12 @@ function EventList({ events, onEventClick }) {
                     <div
                         key={event.id}
                         className="event-card"
-                        onClick={() => onEventClick(event)}
-                    >
+                        onClick={() => onEventClick(event)}>
+                    
+                        <img src={event.image} id="event-image" alt="event"></img>
                         <h2>{event.name}</h2>
                         <p>{event.date}</p>
-                        <p>{event.location}</p>
-                        <img src={event.image} id="event-image" alt="event"></img>
+                        <p id="p1">{event.location}</p>
                     </div>
                 ))}
             </div>
