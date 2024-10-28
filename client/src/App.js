@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 
 import EventList from "./components/EventList";
@@ -23,21 +22,24 @@ function App() {
       <header className="navbar">
         <div className="navbar-left">
           <h1>EventSpot Lite</h1>
-          <p>Welcome!!</p>
+          <p style={{color:"rgb(69, 67, 67)"}}>Welcome!!</p>
         </div>
         <nav className="navbar-links">
           <button onClick={() => setPage("home")}>Home</button>
           <button onClick={() => setPage("trending")}>Trending</button>
           <button onClick={() => setPage("schedule")}>Schedule</button>
         </nav>
+
+      </header>
+      <div id="search-container">
         <input
           type="text"
           placeholder="Search events..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
-      </header>
-      {/* <EventList events={filteredEvents} onEventClick={setSelectedEvent} /> */}
+      </div>
+
       {page === "home" && (
         <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
       )}
