@@ -1,6 +1,7 @@
-
 import React from "react";
 import "./EventList.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 function EventList({ events, onEventClick }) {
     return (
@@ -12,10 +13,14 @@ function EventList({ events, onEventClick }) {
                         className="event-card"
                         onClick={() => onEventClick(event)}>
                     
-                        <img src={event.image} id="event-image" alt="event"></img>
+                        <img src={event.image} id="event-image" alt="event" />
                         <h2>{event.name}</h2>
-                        <p>{event.date}</p>
-                        <p id="p1">{event.location}</p>
+                        <p>
+                            <i className="fas fa-calendar-alt"></i> {event.date}
+                        </p>
+                        <p id="p1">
+                            <i className="fas fa-map-marker-alt"></i> {event.location}
+                        </p>
                     </div>
                 ))}
             </div>
