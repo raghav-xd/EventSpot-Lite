@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import EventList from "./components/EventList";
 import EventModal from "./components/EventModal";
 import eventsData from "./Data";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./App.css";
 
 function App() {
