@@ -1,79 +1,79 @@
+
 #container{
-    margin-top:1%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+  margin-top:1%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 .event-list {
-    width:80%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    color: white;
-  }
-  
-  .event-card {
-    /* background-color:#705C53; */
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 5px;
-    text-align: center;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .event-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  }
+  width:80%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  color: white;
+}
 
-  /* Event Name and Details */
+.event-card {
+  /* background-color:#705C53; */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
 .event-card h2 {
-  font-size: 1.2rem;
-  color: #F5F5F7;
-  margin: 10px 0 5px;
-  text-align: left;
-  margin-left: 10%;
-  
+font-size: 1.2rem;
+color: #F5F5F7;
+margin: 10px 0 5px;
+text-align: left;
+margin-left:10%;
+
 }
 
 .event-card p {
-  font-size: 1rem;
-  color: rgb(140, 138, 138);
-  margin: 5px 0;
-  text-align: left;
-  margin-left: 20%;
-  margin-top: 20px;
+font-size: 1rem;
+color: rgb(140, 138, 138);
+margin: 5px 0;
+text-align: left;
+margin-left:10%;
+margin-top: 20px;
 }
 
 #p1 {
-  margin-top: 0;
-  padding-top: 0;
+margin-top: 0;
+padding-top: 0;
 }
-  
-  /* Image Styling */
-  #event-image{
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px 8px 0 0;
-    transition: transform 0.3s ease;
-    animation: pulseBorder 1s ease-in-out infinite;
-    
-  }
-  #p1{
-    margin-top: 0%;
-    padding-top: 0%;
-  }
 
-  @keyframes pulseBorder {
-    0%, 100% {
-      box-shadow: 0 0 5px #F5F5F7;
-    }
-    50% {
-      box-shadow: 0 0 15px #F5F5F7;
-    }
+
+#event-image{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+  animation: pulseBorder 1s ease-in-out infinite;
+  
+}
+#p1{
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+@keyframes pulseBorder {
+  0%, 100% {
+    box-shadow: 0 0 5px #F5F5F7;
   }
+  50% {
+    box-shadow: 0 0 15px #F5F5F7;
+  }
+}
