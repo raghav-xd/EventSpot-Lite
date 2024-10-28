@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 import EventList from "./components/EventList";
 import EventModal from "./components/EventModal";
