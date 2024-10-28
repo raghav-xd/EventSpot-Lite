@@ -19,22 +19,13 @@ const events = [
         image2:"https://images.pexels.com/photos/989917/pexels-photo-989917.jpeg?auto=compress&cs=tinysrgb&w=600"
     },
     {
-        id: 2,
+        id: 3,
         name: "Book Fair",
         date: "2024-11-20",
         location: "City Hall",
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/375903/pexels-photo-375903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/4861363/pexels-photo-4861363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-        id: 3,
-        name: "Film Festival",
-        date: "2024-11-20",
-        location: "Cinepolis Cinema",
-        description: "An exhibition showcasing works from local and international artists.",
-        image: "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-        image2:"https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
         id: 4,
@@ -89,6 +80,15 @@ const events = [
         description: "An exhibition showcasing works from local and international artists.",
         image: "https://images.pexels.com/photos/9143903/pexels-photo-9143903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
         image2:"https://images.pexels.com/photos/8789703/pexels-photo-8789703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+      {
+        id: 10,
+        name: "Film Festival",
+        date: "2024-11-20",
+        location: "Cinepolis Cinema",
+        description: "An exhibition showcasing works from local and international artists.",
+        image: "https://images.pexels.com/photos/1117132/pexels-photo-1117132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        image2:"https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
 ];
 
