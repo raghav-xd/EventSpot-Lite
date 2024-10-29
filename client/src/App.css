@@ -104,6 +104,7 @@
 
 .menu-icon {
   display: none;
+  padding-right:15px;
 }
 
 @media (max-width: 768px) {
