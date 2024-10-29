@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #B7B7B7;
+/*   background-color: #B7B7B7; */
   color: black;
   animation: slideIn 0.8s ease;
   flex-wrap: wrap;
@@ -49,6 +49,7 @@
   margin: 0 0 0 4%;
   cursor: pointer;
   transition: transform 0.3s ease;
+  color: white;
 }
 
 .navbar-left h1:hover {
@@ -68,7 +69,7 @@
 
 .navbar-links button {
   background-color: transparent;
-  color: black;
+  color: white;
   border: none;
   font-size: 16px;
   cursor: pointer;
@@ -80,6 +81,7 @@
 
 .navbar-links button:hover {
   background-color: white;
+  color: black;
   transform: scale(1.05);
 }
 
@@ -146,6 +148,7 @@
     margin-top:0;
     font-size: 24px;
     cursor: pointer;
+    color: white;
   } 
 
   #search-container input {
