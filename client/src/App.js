@@ -29,8 +29,8 @@ function App() {
     <div className="App">
       <header className="navbar">
         <div className="navbar-left">
-          <h1>EventSpot Lite</h1>
-          <p style={{ color: "rgb(69, 67, 67)" }}>Welcome!!</p>
+          <h1 style={{ fontSize: "2.1rem",marginTop:"25px"}}>EventSpot Lite</h1>
+          <p style={{ color: "rgb(69, 67, 67)", fontSize: "1.3rem"} }>Welcome!!</p>
         </div>
         <nav className="navbar-links">
           <button onClick={() => setPage("home")}>Home</button>
@@ -38,14 +38,15 @@ function App() {
           <button onClick={() => setPage("schedule")}>Schedule</button>
         </nav>
         <div className="menu-icon" onClick={toggleMenu}>☰</div>
-      </header>
-      <div id="search-container">
         <input
           type="text"
           placeholder="Search events..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+      </header>
+      <div id="search-container">
+        
       </div>
       {page === "home" && (
         <EventList events={filteredEvents} onEventClick={setSelectedEvent} />
